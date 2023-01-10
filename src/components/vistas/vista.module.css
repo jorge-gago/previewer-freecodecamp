@@ -1,0 +1,30 @@
+
+.ventana {
+    border: solid 2px;
+    width: 75%;
+    /* height: 25%; */
+    margin: 2% auto;
+    background-color: rgb(148, 210, 212);
+    border: solid rgb(106, 106, 192);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .editor{
+     height: 25%; 
+} */
+
+.prevista{
+    min-height: 60%
+}
+
+.tituloVentana {
+    background-color: rgb(113, 128, 212);
+    border-bottom: solid rgb(106, 106, 192);
+    box-sizing: border-box;
+}
+
+.cuerpoVentana {
+    overflow-y: auto;
+}
