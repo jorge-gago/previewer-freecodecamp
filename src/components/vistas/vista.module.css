@@ -1,14 +1,15 @@
 
 .ventana {
     border: solid 2px;
-    width: 75%;
-    /* height: 25%; */
+    width: 65%;
+
     margin: 2% auto;
     background-color: rgb(148, 210, 212);
     border: solid rgb(106, 106, 192);
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    box-shadow: 0 0 15px 1px ;
 }
 
 /* .editor{
@@ -16,15 +17,17 @@
 } */
 
 .prevista{
-    min-height: 60%
+    min-height: 60%;
 }
 
 .tituloVentana {
     background-color: rgb(113, 128, 212);
     border-bottom: solid rgb(106, 106, 192);
     box-sizing: border-box;
+    padding: 0 0 0 1%;
 }
 
 .cuerpoVentana {
     overflow-y: auto;
 }
+
